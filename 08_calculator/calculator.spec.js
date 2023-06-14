@@ -39,7 +39,7 @@ describe('sum', () => {
 });
 
 describe('multiply', () => {
-	test.skip('multiplies two numbers', () => {
+	test('multiplies two numbers', () => {
 		expect(calculator.multiply(2,4)).toBe(8);
 	});
 

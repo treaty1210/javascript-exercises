@@ -12,8 +12,9 @@ const sum = function(a) {
 	return a.reduce((total, current) => total + current, 0); //Total is previous value, current is current value, 0 is initial value
 };
 
-const multiply = function() {
-
+const multiply = function(a, b) {
+  let multAnswer = Number(a * b);
+  return multAnswer;
 };
 
 const power = function() {
