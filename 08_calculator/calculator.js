@@ -8,8 +8,8 @@ const subtract = function(a, b) {
   return subtractAnswer;
 };
 
-const sum = function() {
-	
+const sum = function(a) {
+	return a.reduce((total, current) => total + current, 0); //Total is previous value, current is current value, 0 is initial value
 };
 
 const multiply = function() {
